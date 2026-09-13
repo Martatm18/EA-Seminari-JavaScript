@@ -21,4 +21,6 @@ fetch('https://jsonplaceholder.typicode.com/users/')
 
       console.log("--- Statistics ---");
       // 4. Reduce to count total characters in names
+      const totalChars = finalUsers.reduce((total, user) => total + user.name.length, 0);
+      console.log("Total characters in names:", totalChars);
   });
