@@ -20,8 +20,8 @@ console.log();
 // ---------------------- Weakly Typed ----------------------
 // JavaScript performs implicit type conversion.
 console.log("Weakly Typed Example:");
-console.log("5" + 3); 
-console.log("5" - 3); 
+console.log("5" + 3); //ens dona 53 perquè li troba el sentit a sumar algo a un string, ho fa per criteri propi, sol.
+console.log("5" - 3); //ens dona 2 perquè no li troba el sentit a restar algo a un string, per tant ho tractarà com un número,ho fa sol.
 console.log();
 
 // ---------------------- JSON Compatibility ----------------------
@@ -79,7 +79,7 @@ console.log("Single-threaded Example:");
 console.log("Asynchronous operations");
 console.log("Start");
 setTimeout(() => {
-  console.log("This executes after 0 ms");
+  console.log("This executes after 0 ms"); //No veiem això al terminal perquè ha executat el setTimeout però no ha esperat a la resposta, per tant ha seguit amb la següent línia de codi.
 }, 0);
 console.log("End");
 console.log();
