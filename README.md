@@ -1,4 +1,4 @@
-# Referències del material consultat
+Referències del material consultat
 - Apunts porporcionats pels professors
 - Els vídeos proposats 
 
